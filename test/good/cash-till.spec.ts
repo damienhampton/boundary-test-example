@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import * as cashTill from "../src/cash-till";
+import * as cashTill from "../../src/cash-till";
 
 describe("money", () => {
   it("should produce correct result", () => {
