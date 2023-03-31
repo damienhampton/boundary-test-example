@@ -4,7 +4,7 @@ import * as adder from "../../src/adder";
 import * as prefixer from "../../src/prefixer";
 import sinon from "sinon";
 
-describe("money", () => {
+describe("cashTill", () => {
   const sandbox = sinon.createSandbox();
   after(() => sandbox.restore());
   it("should produce correct result", () => {
